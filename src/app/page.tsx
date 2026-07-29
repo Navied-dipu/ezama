@@ -5,6 +5,7 @@ import { Hero } from "@/components/sections/Hero";
 import { Stats } from "@/components/sections/Stats";
 import { Services } from "@/components/sections/Services";
 import { WhyAmaze } from "@/components/sections/WhyAmaze";
+import { HowWeWork } from "@/components/sections/HowWeWork";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Card } from "@/components/ui/Card";
@@ -28,6 +29,9 @@ export default function Home() {
 
         {/* Services Section */}
         <Services />
+
+        {/* How We Work Section */}
+        <HowWeWork />
 
         {/* Testimonials Section */}
         <Testimonials />
