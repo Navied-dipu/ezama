@@ -4,6 +4,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { Stats } from "@/components/sections/Stats";
 import { Services } from "@/components/sections/Services";
+import { WhyAmaze } from "@/components/sections/WhyAmaze";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Card } from "@/components/ui/Card";
@@ -21,6 +22,9 @@ export default function Home() {
 
         {/* Stats Section */}
         <Stats />
+
+        {/* Why Amaze Section */}
+        <WhyAmaze />
 
         {/* Services Section */}
         <Services />
