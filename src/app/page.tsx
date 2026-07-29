@@ -1,6 +1,7 @@
 "use client";
 
 import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { Stats } from "@/components/sections/Stats";
 import { Services } from "@/components/sections/Services";
@@ -125,15 +126,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="py-12 border-t border-surface-border bg-base text-center">
-        <div className="container-section text-xs text-ink-subtle flex flex-col sm:flex-row justify-between items-center gap-4">
-          <span>&copy; {new Date().getFullYear()} Dacitos Inc. All rights reserved.</span>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
