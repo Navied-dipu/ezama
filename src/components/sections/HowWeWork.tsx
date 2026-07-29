@@ -46,7 +46,7 @@ const steps: Step[] = [
   },
   {
     number: "04",
-    title: "Ongoing Audit",
+    title: "Ongoing Audit & Optimization",
     description: "Continuous site assessments, predictive asset tracking, and detailed performance reporting ensure optimal building longevity.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-6 h-6">
