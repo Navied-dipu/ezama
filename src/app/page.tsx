@@ -3,6 +3,8 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { Stats } from "@/components/sections/Stats";
+import { Services } from "@/components/sections/Services";
+import { Testimonials } from "@/components/sections/Testimonials";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -19,6 +21,12 @@ export default function Home() {
 
         {/* Stats Section */}
         <Stats />
+
+        {/* Services Section */}
+        <Services />
+
+        {/* Testimonials Section */}
+        <Testimonials />
 
         {/* Components Showcase / Features Section */}
         <section id="features" className="py-24 md:py-32 container-section">
